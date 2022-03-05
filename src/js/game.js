@@ -20,14 +20,6 @@ export default class Game {
     boardField.appendChild(gameBoard);
   }
 
-  goblinPosition() {
-    const targetcell = document.getElementsByClassName('game-cell');
-    setTimeout() {
-      
-    }
-  }
-
-
   start() {
     this.buildBoard(); // построить поле
     // this.goblinPosition(); // начать таймер
