@@ -1,6 +1,4 @@
-export default function replaceTarget() {
-  const cells = document.getElementsByClassName('game-cell');
-  return cells.length;
-}
+import Game from './game';
 
-replaceTarget();
+const game = new Game(3);
+game.start();
