@@ -17,28 +17,24 @@ body {
     grid-gap: 2vw;
     }
 
- .game-cell {
+.game-cell {
     position: relative;
-    font-size: 1vw;
-    /* padding: .5em; */
-    background: rgb(238, 225, 150);
-    /* text-align: center;
-    vertical-align: middle; */
-  }
+    font-size: 1vw;    
+    background: rgb(238, 225, 150);    
+}
 
-  .active { 
+.active { 
     background-image: url('../img/goblin.png');      
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover; 
-  }
+}
 
 .img {
-   margin: 0%;
-   position: absolute;    
-   top: 50%;
+    margin: 0%;
+    position: absolute;    
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-  

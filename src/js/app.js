@@ -1,11 +1,6 @@
-// TODO: write code here
-
-// comment this to pass build
-// const unusedVariable = 'variable';
-
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
+export default function replaceTarget() {
+  const cells = document.getElementsByClassName('game-cell');
+  return cells.length;
 }
 
-// console.log('app.js included');
+replaceTarget();
