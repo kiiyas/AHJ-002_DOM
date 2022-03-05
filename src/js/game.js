@@ -5,19 +5,9 @@ export default class Game {
     this.position = null;
   }
 
+  // eslint-disable-next-line class-methods-use-this
   buildBoard() {
-    const boardField = document.getElementsByClassName('game-container');
-    //
-    const gameBoard = document.createElement('div');
-    gameBoard.className = 'game';
-
-    const cell = document.createElement('div');
-    gameBoard.className = 'game-cell';
-    for (let i = 0; i < this.size ** 2; i += 1) {
-      gameBoard.innerHTML += cell;
-    }
-    //
-    boardField.appendChild(gameBoard);
+    console.log('buildBoard');
   }
 
   start() {
