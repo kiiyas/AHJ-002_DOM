@@ -22,6 +22,9 @@ export default class Game {
 
   goblinPosition() {
     const targetcell = document.getElementsByClassName('game-cell');
+    setTimeout() {
+      
+    }
   }
 
 
